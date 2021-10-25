@@ -8,6 +8,11 @@ public class FlowerBucket {
 
     // add flower pack
     // getPrice
+    public void addFlowerPack(FlowerPack flowerPack){
+        this.flowerPacks.add(flowerPack);
+    }
+
+
 
     public double getPrice(){
         double price = 0;
